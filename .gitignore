@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Data outputs (can be regenerated)
+data/separated_csvs/
+
+# OS
+.DS_Store
+Thumbs.db
