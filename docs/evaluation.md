@@ -1,5 +1,12 @@
 # Evaluation & Results
 
+## Navigation
+
+- [Home](index.md)
+- [Architecture](Architecture.md)
+- [Feature Engineering](feature_engineering.md)
+
+
 This page presents the evaluation methodology and results for the adaptive camera smoothing system, with emphasis on **behavioral correctness**, **stability**, and **real-time suitability** rather than abstract ML metrics alone.
 
 Because this project implements a **control signal** (not a classifier or predictor of ground truth), visual and qualitative evaluation plays a central role.
