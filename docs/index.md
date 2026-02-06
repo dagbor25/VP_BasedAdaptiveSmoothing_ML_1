@@ -1,5 +1,12 @@
 # Adaptive Camera Smoothing for Virtual Production
 
+## Documentation
+
+- [Architecture](architecture.md)
+- [Feature Engineering](feature_engineering.md)
+- [Evaluation & Results](evaluation.md)
+  
+
 This page documents the design, implementation, and evaluation of a **real-time adaptive camera smoothing system** built for virtual production (VP).
 
 The project explores how lightweight machine learning can be used **as a control signal**, rather than as a black-box decision maker, under strict real-time and latency constraints.
