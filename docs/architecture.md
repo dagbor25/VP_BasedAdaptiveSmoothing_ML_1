@@ -1,5 +1,11 @@
 # System Architecture
 
+## Navigation
+
+- [Home](index.md)
+- [Feature Engineering](feature_engineering.md)
+- [Evaluation & Results](evaluation.md)
+
 This page describes the architecture of the adaptive camera smoothing system, from VR tracking input to the final CineCameraActor output.
 
 ---
