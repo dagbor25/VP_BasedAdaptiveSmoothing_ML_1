@@ -1,4 +1,9 @@
 # Feature Engineering
+## Navigation
+
+- [Home](index.md)
+- [Architecture](Architecture)
+- [Evaluation & Results](evaluation.md)
 
 This page explains **why and how motion features were designed** for the adaptive camera smoothing system, and why these features are suitable for real-time virtual production workflows.
 
