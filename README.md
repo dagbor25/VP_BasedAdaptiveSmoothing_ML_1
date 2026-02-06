@@ -162,4 +162,3 @@ Full project walkthrough, visualizations, and design decisions:
 
 ## License
 
-MIT License
