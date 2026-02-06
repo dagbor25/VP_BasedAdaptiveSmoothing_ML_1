@@ -1,6 +1,6 @@
 # Adaptive Camera Smoothing for Virtual Production
 
-## Documentation
+## Navigation
 
 - [Architecture](architecture.md)
 - [Feature Engineering](feature_engineering.md)
