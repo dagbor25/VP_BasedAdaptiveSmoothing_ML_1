@@ -17,17 +17,17 @@ This separation ensures stability, interpretability, and real-time safety.
 ## Conceptual Flow
 
 VR Headset Tracking
-↓
+-->
 Unreal Engine Pose Stream
-↓
+-->
 Motion Analysis (short history)
-↓
+-->
 Intent Estimation (ML)
-↓
+-->
 Smoothing Strength (α)
-↓
+-->
 Camera Filtering
-↓
+-->
 CineCameraActo
 
 At no point does ML directly move the camera.
@@ -37,21 +37,21 @@ At no point does ML directly move the camera.
 The runtime system operates fully in real time and is entirely causal.
 
 [Pose @ Frame N]
-↓
+-->
 [Compute Velocity & Acceleration]
-↓
+-->
 [Sliding Window Buffer (N-k … N)]
-↓
+-->
 [Feature Extraction]
-↓
+-->
 [Normalize Features]
-↓
+-->
 [Linear Regression Model]
-↓
+-->
 [Clamp α]
-↓
+-->
 [Adaptive Smoothing]
-↓
+-->
 [CineCameraActor Transform]
 
 Key properties:
@@ -64,26 +64,26 @@ Key properties:
 ### Training (Offline – Python)
 
 Unreal Logs
-↓
+-->
 Data Cleaning
-↓
+-->
 Feature Extraction
-↓
+-->
 Alpha Labeling
-↓
+-->
 Regression Training
-↓
+-->
 Model Parameters (JSON)
 
 ### Runtime (Online – Unreal Engine C++)
 Model Parameters (JSON)
-↓
+-->
 Feature Normalization
-↓
+-->
 Dot Product + Bias
-↓
+-->
 Clamp α
-↓
+-->
 Camera Smoothing
 
 
